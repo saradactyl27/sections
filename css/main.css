@@ -1,15 +1,17 @@
 html {
   background-color: #f2f2f2;
-  font-family: "leto", sans serif;
+  font-family: "Lato", sans serif;
   line-height: 1.5;
   font-weight: normal;
   margin: 1.5rem;
+  box-sizing: borderbox;
 }
 
 img {
   width: 100%;
   max-width: 25em;
   display: inline-block;
+  vertical-align: middle;
 }
 
 h1 {
@@ -20,6 +22,7 @@ h1 {
 p {
   max-width: 25em;
   display: inline-block;
+  text-align: left;
 }
 
 nav {
@@ -37,6 +40,7 @@ a:link {
   padding: 1em;
   border: 3px solid #333;
   border-radius: 5px;
+  text-align: center;
 }
 
 a:hover {
@@ -44,8 +48,4 @@ a:hover {
   text-decoration: none;
   color: white;
   padding: 1em;
-}
-
-main {
-  display: inline-block;
 }
